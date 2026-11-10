@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#23234f"/><stop offset="1" stop-color="#4b3f8f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.35"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="cres"><rect width="1024" height="1024" fill="#fff"/><circle cx="600" cy="400" r="270" fill="#000"/></mask>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="470" r="420" fill="url(#glow)"/>
+  <circle cx="490" cy="470" r="290" fill="#fff4dc" mask="url(#cres)"/>
+  <circle cx="725" cy="300" r="14" fill="#fff4dc" opacity="0.8"/>
+  <circle cx="790" cy="420" r="9" fill="#fff4dc" opacity="0.6"/>
+  <path d="M512 905c-34-40-50-78-50-112 0-30 20-60 50-86 30 26 50 56 50 86 0 34-16 72-50 112z" fill="#ff9f0a"/>
+  <path d="M512 905c-60-6-112-30-150-72 34-14 72-12 108 6M512 905c60-6 112-30 150-72-34-14-72-12-108 6" fill="#ff9f0a" opacity="0.75"/>
+</svg>
